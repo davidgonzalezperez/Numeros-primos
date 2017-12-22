@@ -18,7 +18,12 @@ function primo()
 		if(NumeroPrimo){
 			contar++;
 			document.getElementById("resultado").innerHTML="El numero "+valor+" es Primo has obtenido un punto";
+
+
+			
 		}
-		else
-			document.getElementById("resultado").innerHTML="El numero "+valor+" NO es Primo has obtenido "+contar+" puntos";
+		else{
+			document.getElementById("resultado").innerHTML="El numero "+valor+" NO es Primo has obtenido "+contar+" puntos en total";
+		contar=0;}
+
 	}
